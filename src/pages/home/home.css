@@ -1,0 +1,29 @@
+.homeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    background: linear-gradient(to right, #f7fe21, #e55571);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+    p {
+      /* align-self: center;
+        text-align: center; */
+    }
+  }
+  .right {
+    flex: 1;
+  }
+}
